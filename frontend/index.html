@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Explorer</title>
+  <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 class="title">🎬 Movie Explorer</h1>
+      <p class="subtitle">Discover amazing movies from around the world</p>
+      
+      <div class="search-container">
+        <input 
+          type="text" 
+          class="search-input" 
+          placeholder="Search for movies... (e.g., Inception, Avatar, Batman)"
+          id="searchInput"
+        >
+      </div>
+    </div>
+
+    <div class="loading" id="loading">🔍 Searching for movies...</div>
+    <div class="error-message" id="errorMessage"></div>
+    <div class="no-results" id="noResults">No movies found. Try a different search term!</div>
+
+    <div class="movies-grid" id="moviesGrid"></div>
+
+    <!-- <div class="movies-grid" id="moviesGrid">
+      <div class="movie-card">
+        <img src="./movie_images/f1.jpg" alt="Sample Movie" class="movie-poster" loading="lazy">
+        <div class="movie-info">
+          <h3 class="movie-title">F1</h3>
+          <p class="movie-year">2025</p>
+          <span class="movie-type">Movie</span>
+        </div>
+      </div>
+      
+      <div class="movie-card">
+        <img src="./movie_images/dark_knight.jpg" alt="Sample Movie"class="movie-poster" loading="lazy">
+        <div class="movie-info">
+          <h3 class="movie-title"> The Dark Knight</h3>
+          <p class="movie-year">2008</p>
+          <span class="movie-type">Movie</span>
+        </div>
+      </div>
+      
+      <div class="movie-card">
+        <img src="./movie_images/bahubali.jpg" alt="Sample Movie" class="movie-poster" loading="lazy">
+        <div class="movie-info">
+          <h3 class="movie-title">Bahubali The Begining</h3>
+          <p class="movie-year">2015</p>
+          <span class="movie-type">Movie</span>
+        </div>
+      </div>
+      
+      <div class="movie-card">
+        <img src="./movie_images/interstellar.jpg" alt="Sample Movie" class="movie-poster" loading="lazy">
+        <div class="movie-info">
+          <h3 class="movie-title">Interstellar</h3>
+          <p class="movie-year">2014</p>
+          <span class="movie-type">Movie</span>
+        </div>
+      </div>
+
+      <div class="movie-card">
+        <img src="./movie_images/spiderman.jpg" alt="Sample Movie" class="movie-poster" loading="lazy">
+        <div class="movie-info">
+          <h3 class="movie-title">Spiderman</h3>
+          <p class="movie-year">2002</p>
+          <span class="movie-type">Movie</span>
+        </div>
+      </div>
+
+      <div class="movie-card">
+        <img src="./movie_images/whiplash.jpg" alt="Sample Movie" class="movie-poster" loading="lazy">
+        <div class="movie-info">
+          <h3 class="movie-title">Whiplash</h3>
+          <p class="movie-year">2014</p>
+          <span class="movie-type">Movie</span>
+        </div>
+      </div>
+
+      <div class="movie-card">
+        <img src="./movie_images/fight_club.jpg" alt="Sample Movie" class="movie-poster" loading="lazy">
+        <div class="movie-info">
+          <h3 class="movie-title">Fight Club</h3>
+          <p class="movie-year">1999</p>
+          <span class="movie-type">Movie</span>
+        </div>
+      </div>
+
+      <div class="movie-card">
+        <img src="./movie_images/iron_man.jpg" alt="Sample Movie" class="movie-poster" loading="lazy">
+        <div class="movie-info">
+          <h3 class="movie-title">Iron Man</h3>
+          <p class="movie-year">2008</p>
+          <span class="movie-type">Movie</span>
+        </div>
+      </div>
+
+      <div class="movie-card">
+        <img src="./movie_images/no_country_for_old_men.jpeg" alt="Sample Movie" class="movie-poster" loading="lazy">
+        <div class="movie-info">
+          <h3 class="movie-title">No Country for Old Men</h3>
+          <p class="movie-year">2007</p>
+          <span class="movie-type">Movie</span>
+        </div>
+      </div>
+    </div> -->
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
